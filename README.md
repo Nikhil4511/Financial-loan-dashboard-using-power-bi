@@ -1,89 +1,107 @@
 # Financial-loan-dashboard-using-power-bi
 
-## 📌 Project Overview
+## 📌 Project Description
 
-This project presents an interactive Financial Loan Dashboard built using Power BI to analyze loan performance, customer income, repayment behavior, and loan purposes.
-The dashboard helps stakeholders understand loan distribution, risk patterns, installment trends, and borrower profiles through clear KPIs and visual insights.
+This project is an interactive Financial Loan Dashboard developed using Power BI.
+The dashboard analyzes loan data to provide insights into loan amounts, installments, income, payment trends, loan status, loan purpose, and borrower verification details.
 
-## 🎯 Objectives
+The goal of this project is to visually represent loan performance and help understand how different factors such as loan term, purpose, and verification status impact the overall loan portfolio.
 
-Analyze total loan amount, installments, and payments
-
-Understand loan status distribution (Fully Paid, Charged Off, Current)
-
-Identify trends in loan amount over time
-
-Compare loan performance by term, purpose, and verification status
-
-Provide a single-page executive dashboard for quick insights
-
-## 🛠 Tools & Technologies
+## 🛠 Tools Used
 
 Power BI Desktop
 
-Power Query (Data Cleaning & Transformation)
+Power Query Editor (for data cleaning & transformation)
 
-DAX (Measures & KPIs)
+DAX (for calculated measures and KPIs)
 
-CSV Dataset
+CSV File as data source
 
-## 📂 Dataset Information
+## 📂 Dataset Used
 
-Source: Financial loan dataset (CSV)
+File Name: financial_loan.csv
 
-Key Columns Used:
+Data Type: Structured financial loan data
 
-Loan Amount
+Contains information related to:
 
-Installment
+Loan amount
 
-Annual Income
+Installment amount
 
-Loan Status
+Annual income
 
-Term (36 / 60 months)
+Loan status
 
-Purpose
+Loan term
 
-Verification Status
+Loan purpose
 
-Employment Length
+Verification status
 
-Issue Date (Month-wise analysis)
+Employment length
 
-## 📈 Key KPIs
+Issue month
 
-Total Loans: 38.5K
+## 📊 Key KPIs Shown in Dashboard
 
-Total Installments: 15.1K
+Total Loan: 38.576K
 
-Total Loan Amount: 436M
+Total Installment: 15.132K
 
-Total Payment: 473M
+Total Annual Income: 2.69 Billion
 
-Total Annual Income: 2.69B
+Total Payment: 473 Million
 
-## 📊 Dashboard Features & Visuals
+Total Loan Amount: 436 Million
 
-KPI Cards – High-level financial summary
+## 📈 Visualizations Included
 
-Donut Charts
+Total Loan Amount by Loan Status
 
-Loan Amount by Loan Status
+Fully Paid
 
-Installment Distribution by Loan Term
+Charged Off
 
-Column Chart
+Current
+
+Total Installment by Loan Term
+
+36 Months
+
+60 Months
 
 Loan Amount by Month
 
-Table Visual
+Month-wise loan disbursement trend
 
-Loan Purpose vs Interest Rate & Loan Amount
+Purpose by Interest & Loan Amount (Table Visual)
 
-Interactive Slicers
+Car
+
+Credit Card
+
+Debt Consolidation
+
+Educational
+
+Home Improvement (and others)
+
+Loan Purpose-wise Loan Amount Table
+
+Shows total loan amount for each loan purpose
+
+## Interactive Filters (Slicers)
+
+The dashboard includes interactive slicers for:
 
 Verification Status
+
+Not Verified
+
+Source Verified
+
+Verified
 
 Employment Length
 
@@ -91,17 +109,19 @@ Loan Status
 
 Loan Purpose
 
-## 🔍 Key Insights
+These slicers allow users to dynamically filter and analyze the data.
 
-Majority of loans are Fully Paid, indicating healthy repayment behavior
+## 🔍 Key Insights from Dashboard
 
-36-month loans contribute a higher share of total installments
+Majority of the loan amount belongs to Fully Paid loans
 
-Debt Consolidation and Credit Card loans dominate total loan amount
+36-month loans contribute more to total installments than 60-month loans
 
-Loan disbursement peaks toward the end of the year
+Debt Consolidation and Credit Card loans have higher loan amounts
 
-Verified borrowers show more stable loan patterns
+Loan disbursement increases significantly in later months of the year
+
+Verified borrowers show more consistent loan behavior
 
 ## Screenshot
 <img width="1198" height="673" alt="Screenshot" src="https://github.com/user-attachments/assets/dd15b3d3-9be0-4645-bd3c-1b08a95281f8" />
